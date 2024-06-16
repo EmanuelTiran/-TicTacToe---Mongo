@@ -1,0 +1,26 @@
+.menu {
+    background-color: #4574d3;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 25px;
+
+}
+
+.img {
+    width: 150%;
+}
+
+.btns {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 15px;
+}
+.blurO{
+    filter: blur(20px);
+    width: 555px;
+}

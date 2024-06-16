@@ -1,0 +1,39 @@
+.outside{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(255, 252, 204);
+    opacity: 1;
+    display: grid;
+    place-items: center;
+}
+.inside{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 500px;
+    height: 333px;
+    background-color: #053f6f;
+    padding: 20px;
+    text-align: center;
+    outline: 5000px solid rgba(0, 0, 0, 0.8);
+    transform: translate(-50%, -50%);
+    transform-origin: center center;
+    animation: scale-in 0.5s ease-in-out;
+    color: antiquewhite;
+    font-size: 50px;
+    -webkit-text-stroke:3px goldenrod;
+}
+@keyframes scale-in {
+    from {
+      transform: translate(-50%, -50%) scale(0.1);
+      opacity: 0.5;
+    }
+    to {
+      transform: translate(-50%, -50%) scale(1);
+      opacity: 1;
+    }
+  }
